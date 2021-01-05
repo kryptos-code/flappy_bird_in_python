@@ -14,6 +14,8 @@
     f) calling two functions => welcomeScreen() and then mainGame()
 
 5. How pygame works?
-    a) 
+    This module is used to load images and get their properties using various Methods in Pygame Module.
 6. How to create Random Pipes?
-    a) we have two pipes Lower and Upper
+    a) We need to load a single pipe image twice.
+    b) Rotate first image to 180 degree to make it as upper pipe.
+    c) Second image can be considered as the lower pipe.
